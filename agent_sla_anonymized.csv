@@ -1,0 +1,10 @@
+Agent_ID,Agent_Name,Total_Ticket,Avg_SLA_Seconds,Avg_SLA_Minutes,Status
+AG-01,AG-01,8816.0,35.0,0.58,Good
+AG-02,AG-02,10588.0,29.0,0.48,Excellent
+AG-03,AG-03,8717.0,49.0,0.82,Good
+AG-04,AG-04,8997.0,30.0,0.5,Excellent
+AG-05,AG-05,9339.0,31.0,0.52,Good
+AG-06,AG-06,11880.0,30.0,0.5,Excellent
+AG-07,AG-07,10876.0,24.0,0.4,Excellent
+AG-08,AG-08,11464.0,38.0,0.63,Good
+AG-09,AG-09,10687.0,29.0,0.48,Excellent
