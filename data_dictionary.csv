@@ -1,0 +1,15 @@
+Field,Definition,Transformation
+Record_ID,Synthetic sequential record ID,Created for portfolio
+Order_ID,Anonymized order identifier,"SHA-256 token, shortened"
+ModifiedDate,Operational timestamp,Source ModifiedDate
+Date,Calendar date,Derived from ModifiedDate
+Hour,Hour of day 0-23,Derived from ModifiedDate
+Day_Name,Day name,Derived from ModifiedDate
+Week,ISO week,Derived from ModifiedDate
+Tier,KYB tier,Source TierLevel; blanks mapped to Unknown
+Status_Clean,Workflow status,Source Status; blanks mapped to Unknown
+Agent_ID,Anonymized agent identifier,Agent 01 onward
+Total_Ticket,Agent ticket volume,August SLA report
+Avg_SLA_Seconds,Average SLA in seconds,August SLA report
+Avg_SLA_Minutes,Average SLA in minutes,August SLA report
+Status,SLA category,August SLA report
